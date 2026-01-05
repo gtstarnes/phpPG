@@ -7,7 +7,9 @@
 </head>
 <body>
     <?php
-        $name = "Jimmy";
+        $first = "Jimmy";
+        $name = &$first;
+        $first = "Limmy";
         echo "Hello, {$name}";
     ?>
 </body>
