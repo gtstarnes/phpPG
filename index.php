@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
+        echo print "Hello, world";
+    ?>
 </body>
 </html>
