@@ -9,6 +9,7 @@
     <?php
         define('NAME', "Jeff");
         echo NAME;
+        echo defined("NAME");
     ?>
 </body>
 </html>
