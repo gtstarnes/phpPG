@@ -7,10 +7,8 @@
 </head>
 <body>
     <?php
-        $first = "Jimmy";
-        $name = &$first;
-        $first = "Limmy";
-        echo "Hello, {$name}";
+        define('NAME', "Jeff");
+        echo NAME;
     ?>
 </body>
 </html>
