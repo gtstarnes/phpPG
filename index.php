@@ -7,7 +7,10 @@
 </head>
 <body>
     <?php
-        echo __FILE__;
+        $foo = "bar";
+        $$foo = "hop";
+
+        echo $foo, $$foo;
     ?>
 </body>
 </html>
