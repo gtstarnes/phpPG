@@ -7,9 +7,7 @@
 </head>
 <body>
     <?php
-        $name = 'NAME';
-        define('FIRST_' . $name, 'Jeff');
-        echo FIRST_NAME;
+        echo __LINE__;
     ?>
 </body>
 </html>
