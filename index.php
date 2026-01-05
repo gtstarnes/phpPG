@@ -7,9 +7,9 @@
 </head>
 <body>
     <?php
-        define('NAME', "Jeff");
-        echo NAME;
-        echo defined("NAME");
+        $name = 'NAME';
+        define('FIRST_' . $name, 'Jeff');
+        echo FIRST_NAME;
     ?>
 </body>
 </html>
