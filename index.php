@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        echo __LINE__;
+        echo __FILE__;
     ?>
 </body>
 </html>
