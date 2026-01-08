@@ -9,9 +9,9 @@
     <h1>
         Hello, 
         <?php 
-            $name = "Jeff";
-            define("FIRSTNAME", "Jeff");
-            echo defined('FIRSTNAME');
+            $a = "hello";
+            $$a = "world";
+            echo "$a  1 {$hello}";
         ?>
     </h1>
 </body>
