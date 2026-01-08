@@ -9,8 +9,9 @@
     <h1>
         Hello, 
         <?php 
-            echo __LINE__;
-            echo __FILE__;
+            $name = "Jeff";
+            define("FIRSTNAME", "Jeff");
+            echo defined('FIRSTNAME');
         ?>
     </h1>
 </body>
