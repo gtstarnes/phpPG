@@ -9,8 +9,7 @@
     <h1>
         Hello, 
         <?php 
-            define("FIRSTNAME", "Jeff");
-            echo FIRSTNAME;
+            echo __LINE__;
         ?>
     </h1>
 </body>
