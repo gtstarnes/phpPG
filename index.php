@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-
+    <h1>
+        Hello, 
+        <?php 
+            define("FIRSTNAME", "Jeff");
+            echo FIRSTNAME;
+        ?>
+    </h1>
 </body>
 </html>
