@@ -10,6 +10,7 @@
         Hello, 
         <?php 
             echo __LINE__;
+            echo __FILE__;
         ?>
     </h1>
 </body>
