@@ -6,11 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        $foo = "bar";
-        $$foo = "hop";
 
-        echo $foo, $$foo;
-    ?>
 </body>
 </html>
