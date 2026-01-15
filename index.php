@@ -9,7 +9,12 @@
     <h1>
         Hello, 
         <?php 
-            
+            //define("NAME", "Jeff");
+            if (defined("NAME")) {
+                echo NAME;
+            } else {
+                echo "World";
+            }
         ?>
     </h1>
 </body>
