@@ -9,9 +9,7 @@
     <h1>
         Hello, 
         <?php 
-            $name = "NAME";
-            define('FIRST_'. $name, "Tim");
-            echo FIRST_NAME;
+            
         ?>
     </h1>
 </body>
